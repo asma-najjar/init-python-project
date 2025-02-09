@@ -13,3 +13,5 @@ class Person(models.Model):
 
     def __str__(self):
         return f"Name: {self.first_name}, Email:{self.email}, Phone: {self.phone}"
+
+#should be my pull request
